@@ -1,4 +1,4 @@
-from models import APIKey
+from dailypractice.models import APIKey
 key1 = APIKey("key_1", "Client A", 2)
 key2 = APIKey("key_2", "Client B", 3)
 

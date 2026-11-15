@@ -1,4 +1,4 @@
-from helpers import clean_tags, add_tag
+from dailypractice.helpers import clean_tags, add_tag
 assert clean_tags("") == []
 assert add_tag("a") == ["a"]
 assert add_tag("b") == ["b"]   
