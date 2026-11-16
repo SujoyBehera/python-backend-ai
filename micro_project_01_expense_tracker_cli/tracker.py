@@ -1,2 +1,3 @@
 import json
-from expense_models import Expense, ExpenseTracker  
+from expense_models import Expense, InvalidExpenseError  
+

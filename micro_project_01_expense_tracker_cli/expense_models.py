@@ -5,7 +5,7 @@ class InvalidExpenseError(ValueError):
 @dataclass
 class Expense:
     title: str
-    amount: str
+    amount: float
     category: str
 
 
