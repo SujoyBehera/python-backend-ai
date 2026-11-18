@@ -20,8 +20,11 @@ class ExpenseTracker:
         new_expense = Expense(title = clean_title, amount = float(amount),category = clean_cat )
         self.expenses.append(new_expense)
         return new_expense
-    
-        
-        
 
+    def get_total(self)->float:
+        total = 0
+        for i in self.expenses:
+            total += i.amount
+            return total
 
+    def get_category_breakdown(self)->dict[str,float]:
